@@ -6,7 +6,5 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
     = render 'layouts/shim'
   %body
-    .container
-      .row
-        = render 'layouts/header'
-        = yield
+    = render 'layouts/header'
+    = yield

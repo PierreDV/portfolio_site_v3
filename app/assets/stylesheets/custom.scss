@@ -1,16 +1,25 @@
 body {
   width: 750px;
   font-family: Arial, Verdana, sans-serif;
-  color: #565656;
+  color: #333333;
   background-color: #D7CEC7;
 }
-h1, {
+h1 {
+  color: #000066;
   background-color: #C09F80;
   padding: 10px;}
 
+h2 {
+  color: #000066;
+}
+
+a {
+  color: #660011;
+}
+
 /*
  * color scheme
- * #03899C - blue
- * #FFAE00 - yellow
- * #FF1300 - red
+ * #D7CEC7 - main
+ * #333333 - text
+ * #000066 - accent
  */
